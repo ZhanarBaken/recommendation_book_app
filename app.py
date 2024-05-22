@@ -1,9 +1,3 @@
-import os
-import subprocess
-
-# Установка nmslib с флагом --no-binary
-subprocess.run(["./custom-install/install_nmslib.sh"], check=True)
-
 #Импортируем необходимые библиотеки
 import warnings
 warnings.filterwarnings("ignore")
