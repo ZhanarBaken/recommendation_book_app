@@ -33,7 +33,7 @@ matplotlib-inline==0.1.7
 mdurl==0.1.2
 nest-asyncio==1.6.0
 numpy==1.24.4
-nmslib==2.0.9
+nmslib==2.0.5 --no-binary=nmslib
 packaging==24.0
 pandas==2.0.3
 parso==0.8.4
