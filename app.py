@@ -4,6 +4,11 @@ warnings.filterwarnings("ignore")
 
 
 import streamlit as st
+import subprocess
+
+# Устанавливаем зависимости
+subprocess.call(["pip", "install", "--no-binary=nmslib", "-r", "requirements.txt"])
+
 import numpy as np
 import pandas as pd
 import lightfm as lf
